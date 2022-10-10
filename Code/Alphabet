@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    char chr;
+    printf("Enter a character: ");
+    scanf("%c", &chr);
+    if((chr >= 'a' && chr <= 'z') || (chr >= 'A' && chr <= 'Z'))
+    {
+        printf("The given character is an Alphabet.");
+    }
+    else
+    {
+        printf("The given character is not an Alphabet.");
+    }
+    return 0;
+}
